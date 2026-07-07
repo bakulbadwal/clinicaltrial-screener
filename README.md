@@ -20,7 +20,7 @@ A screening tool that pulls **real, live trial data** from the ClinicalTrials.go
 
 ## Why this, why now, why me
 
-This sits at the actual intersection of the two things you have that most people building AI-for-biotech tools don't: real investing/screening judgment from PE work, and enough scientific literacy to know what trial-design factors actually matter. It's not a generic "AI predicts drug approval" pitch — it's a transparent base-rate model, built on real published statistics, that an actual investor would find useful specifically because it shows its work.
+This sits at the actual intersection of the two things I have that most people building AI-for-biotech tools don't: real investing/screening judgment from PE work, and enough scientific literacy to know what trial-design factors actually matter. It's not a generic "AI predicts drug approval" pitch — it's a transparent base-rate model, built on real published statistics, that an actual investor would find useful specifically because it shows its work.
 
 ![Screenshot](docs/screenshot.png)
 
