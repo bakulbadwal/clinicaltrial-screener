@@ -2,7 +2,7 @@
 
 **Status:** v1 built and live. 33 real, live-pulled trials across oncology, cardiovascular, and neurology. See [SCOPE.md](SCOPE.md) for the full technical spec and phased roadmap.
 
-**Live:** https://bakul007.github.io/clinicaltrial-screener/
+**Live:** https://bakulbadwal.github.io/clinicaltrial-screener/
 
 ## Honest positioning
 
@@ -14,7 +14,7 @@ Estimating a clinical trial's probability of success is currently either manual 
 
 ## What it is
 
-A screening tool that pulls **real, live trial data** from the ClinicalTrials.gov public API and scores each trial against a **published, cited base rate** (BIO/Informa/QLS Clinical Development Success Rates study, 2011–2020) — adjusted by four computed factors: sponsor profile, trial design (enrollment vs. phase norms), timeline risk, and competitive density (queried live, per trial, against ClinicalTrials.gov). Every number in the app is either pulled live or cited to a real source — nothing is fabricated. A sibling tool to [The Sourcing Screen](https://github.com/bakul007/dealsourcing): same instinct (make a screening framework's assumptions visible and adjustable), applied to a different asset class.
+A screening tool that pulls **real, live trial data** from the ClinicalTrials.gov public API and scores each trial against a **published, cited base rate** (BIO/Informa/QLS Clinical Development Success Rates study, 2011–2020) — adjusted by four computed factors: sponsor profile, trial design (enrollment vs. phase norms), timeline risk, and competitive density (queried live, per trial, against ClinicalTrials.gov). Every number in the app is either pulled live or cited to a real source — nothing is fabricated. A sibling tool to [The Sourcing Screen](https://github.com/bakulbadwal/dealsourcing): same instinct (make a screening framework's assumptions visible and adjustable), applied to a different asset class.
 
 ## Data pipeline — and it refreshes itself
 
