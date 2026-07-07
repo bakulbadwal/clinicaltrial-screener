@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinical Trial Screener — Public-Data Trial Success Screening</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap" id="app">
+  <header>
+    <div>
+      <div class="eyebrow" id="eyebrow"></div>
+      <h1 id="title"></h1>
+      <span class="sub" id="subtitle"></span>
+      <div class="as-of" id="asOf"></div>
+    </div>
+    <div class="header-ticker">
+      Avg. adjusted probability
+      <span class="big" id="tickerScore">—</span>
+    </div>
+  </header>
+
+  <div class="disclaimer" id="disclaimer"></div>
+
+  <div class="section-title">Five-factor screen — drag to re-weight, list re-ranks live</div>
+  <div class="framework-grid" id="frameworkRoot"></div>
+
+  <div class="section-title">Trials (live-pulled from ClinicalTrials.gov)</div>
+  <div class="controls-bar">
+    <input type="text" id="searchInput" placeholder="Search title, condition, sponsor...">
+    <select id="areaFilter"></select>
+    <select id="sortSelect">
+      <option value="prob-desc">Probability: high to low</option>
+      <option value="prob-asc">Probability: low to high</option>
+      <option value="enrollment-desc">Enrollment: high to low</option>
+    </select>
+  </div>
+
+  <div class="stats-row" id="statsRoot"></div>
+
+  <table class="trial-table">
+    <thead>
+      <tr><th>Trial</th><th>Area</th><th>Phase</th><th>Enrollment</th><th>NCT ID</th><th>Adjusted probability</th></tr>
+    </thead>
+    <tbody id="listRoot"></tbody>
+  </table>
+
+  <footer>
+    Data: ClinicalTrials.gov public API, live-pulled. Base rates: BIO/Informa/QLS 2011-2020 study. Illustrative only — see disclaimer above. Built by Bakul Badwal with Claude Code. MIT licensed.
+  </footer>
+</div>
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<div class="drawer" id="drawer">
+  <button class="drawer-close" id="drawerClose">&times;</button>
+  <div id="drawerBody"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

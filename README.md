@@ -1,18 +1,28 @@
 # Clinical Trial Screener — Biotech Trial Success-Probability Tool
 
-**Status:** Scoped, not yet built. See [SCOPE.md](SCOPE.md) for the full technical/build spec.
+**Status:** v1 built. 33 real, live-pulled trials across oncology, cardiovascular, and neurology. See [SCOPE.md](SCOPE.md) for the full technical spec and phased roadmap.
+
+## Honest positioning
+
+This is not a claim of a blank market — institutional platforms (Evaluate Pharma, Clarivate Cortellis, GlobalData) and at least one AI-native competitor (Intelligencia AI) already work this space, alongside a real body of academic ML research on trial-outcome prediction. The differentiation here is narrower and more honest: fully public data, zero licensing cost, and every score shows exactly which factor moved it — no black box.
 
 ## The problem
 
-Estimating a clinical trial's probability of success is currently either manual and expert-dependent (a biotech analyst reading the protocol and comparing it to what they remember) or locked behind expensive institutional data terminals. There's no fast, transparent, public-data-only way to get a directional probability estimate and see exactly which factors are driving it.
+Estimating a clinical trial's probability of success is currently either manual and expert-dependent (a biotech analyst reading the protocol and comparing it to what they remember) or locked behind expensive institutional data terminals that don't show their work.
 
 ## What it is
 
-A screening tool for biotech/health investing that pulls real public trial data (ClinicalTrials.gov) and scores a given trial or program against published historical phase-transition base rates — adjusted for sponsor track record, indication, trial design signals, and enrollment health — with a full breakdown of what's driving the score. A sibling tool to [The Sourcing Screen](https://github.com/bakul007/dealsourcing): same instinct (make a screening framework's assumptions visible and adjustable), applied to a different asset class.
+A screening tool that pulls **real, live trial data** from the ClinicalTrials.gov public API and scores each trial against a **published, cited base rate** (BIO/Informa/QLS Clinical Development Success Rates study, 2011–2020) — adjusted by four computed factors: sponsor profile, trial design (enrollment vs. phase norms), timeline risk, and competitive density (queried live, per trial, against ClinicalTrials.gov). Every number in the app is either pulled live or cited to a real source — nothing is fabricated. A sibling tool to [The Sourcing Screen](https://github.com/bakul007/dealsourcing): same instinct (make a screening framework's assumptions visible and adjustable), applied to a different asset class.
+
+## Data pipeline
+
+`data/build_dataset.py` fetches real trial records (already saved as `data/raw_*.json` for reproducibility), classifies each trial's sponsor, computes trial-design and timeline signals from the actual record, queries ClinicalTrials.gov live for the current competitive trial count per condition, and writes the scored `data.json` the app reads. Re-run it any time to refresh with current trials.
 
 ## Why this, why now, why me
 
 This sits at the actual intersection of the two things you have that most people building AI-for-biotech tools don't: real investing/screening judgment from PE work, and enough scientific literacy to know what trial-design factors actually matter. It's not a generic "AI predicts drug approval" pitch — it's a transparent base-rate model, built on real published statistics, that an actual investor would find useful specifically because it shows its work.
+
+![Screenshot](docs/screenshot.png)
 
 ## Stack
 
