@@ -1,8 +1,10 @@
-# Clinical Trial Screener — Biotech Trial Success-Probability Tool
+# PhaseSignal — Biotech Trial Success-Probability Tool
 
 **Status:** v1 built and live. 33 real, live-pulled trials across oncology, cardiovascular, and neurology. See [SCOPE.md](SCOPE.md) for the full technical spec and phased roadmap.
 
-**Live:** https://bakulbadwal.github.io/clinicaltrial-screener/
+**Live:** https://bakulbadwal.github.io/phasesignal/
+
+![PhaseSignal screenshot](docs/screenshot.png)
 
 ## Honest positioning
 

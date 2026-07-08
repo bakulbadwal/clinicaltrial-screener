@@ -168,7 +168,7 @@ def main():
 
     output = {
         "meta": {
-            "title": "Clinical Trial Screener",
+            "title": "PhaseSignal",
             "subtitle": "Public-data trial success screening — every score shows its work",
             "asOf": "July 2026",
             "disclaimer": "Directional and illustrative only. Built entirely on public ClinicalTrials.gov data and published historical base rates (cited per trial). Not investment advice, not a substitute for real diligence, and not affiliated with or reflective of any employer's actual models or holdings.",

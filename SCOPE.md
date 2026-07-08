@@ -1,4 +1,4 @@
-# Clinical Trial Screener — Full Scope & Build Spec
+# PhaseSignal — Full Scope & Build Spec
 
 ## 1. Data source — and the honest limitation to solve first
 
