@@ -3,166 +3,21 @@
     {
       "protocolSection": {
         "identificationModule": {
-          "nctId": "NCT06540833",
-          "briefTitle": "A Study to Assess the Efficacy and Safety of ITI-1284 in the Treatment of Psychosis Associated With Alzheimer's Disease"
+          "nctId": "NCT07214727",
+          "briefTitle": "A Study to Evaluate ALN-5288 in Patients With Alzheimer's Disease"
         },
         "statusModule": {
           "overallStatus": "RECRUITING",
           "startDateStruct": {
-            "date": "2024-08-15"
+            "date": "2025-10-15"
           },
           "primaryCompletionDateStruct": {
-            "date": "2028-09-30"
+            "date": "2030-03-06"
           }
         },
         "sponsorCollaboratorsModule": {
           "leadSponsor": {
-            "name": "Intra-Cellular Therapies, Inc."
-          }
-        },
-        "conditionsModule": {
-          "conditions": [
-            "Psychosis Associated With Alzheimer's Disease"
-          ]
-        },
-        "designModule": {
-          "studyType": "INTERVENTIONAL",
-          "phases": [
-            "PHASE2"
-          ],
-          "enrollmentInfo": {
-            "count": 370
-          }
-        }
-      }
-    },
-    {
-      "protocolSection": {
-        "identificationModule": {
-          "nctId": "NCT07094438",
-          "briefTitle": "Study Safety and Efficacy of Deep Brain Stimulation (DBS) and Cervical Deep Lymphoid-venous Anastomosis (LVA) in Alzheimer's Disease"
-        },
-        "statusModule": {
-          "overallStatus": "RECRUITING",
-          "startDateStruct": {
-            "date": "2025-01-01"
-          },
-          "primaryCompletionDateStruct": {
-            "date": "2026-06"
-          }
-        },
-        "sponsorCollaboratorsModule": {
-          "leadSponsor": {
-            "name": "Chinese PLA General Hospital"
-          }
-        },
-        "conditionsModule": {
-          "conditions": [
-            "Alzheimer Disease"
-          ]
-        },
-        "designModule": {
-          "studyType": "INTERVENTIONAL",
-          "phases": [
-            "PHASE1"
-          ],
-          "enrollmentInfo": {
-            "count": 98
-          }
-        }
-      }
-    },
-    {
-      "protocolSection": {
-        "identificationModule": {
-          "nctId": "NCT06467539",
-          "briefTitle": "Novel Augmentation of DAOIB and Antioxidant for Early Dementia"
-        },
-        "statusModule": {
-          "overallStatus": "RECRUITING",
-          "startDateStruct": {
-            "date": "2024-06-19"
-          },
-          "primaryCompletionDateStruct": {
-            "date": "2027-05"
-          }
-        },
-        "sponsorCollaboratorsModule": {
-          "leadSponsor": {
-            "name": "Chang Gung Memorial Hospital"
-          }
-        },
-        "conditionsModule": {
-          "conditions": [
-            "Alzheimer Disease",
-            "Mild Cognitive Impairment"
-          ]
-        },
-        "designModule": {
-          "studyType": "INTERVENTIONAL",
-          "phases": [
-            "PHASE2"
-          ],
-          "enrollmentInfo": {
-            "count": 80
-          }
-        }
-      }
-    },
-    {
-      "protocolSection": {
-        "identificationModule": {
-          "nctId": "NCT07262645",
-          "briefTitle": "Near-infrared Light Therapy Device for Mild-Moderate Alzheimer's Disease (NirsCure-03A)"
-        },
-        "statusModule": {
-          "overallStatus": "RECRUITING",
-          "startDateStruct": {
-            "date": "2025-12-15"
-          },
-          "primaryCompletionDateStruct": {
-            "date": "2027-07-22"
-          }
-        },
-        "sponsorCollaboratorsModule": {
-          "leadSponsor": {
-            "name": "Danyang Huichuang Medical Equipment Co., Ltd."
-          }
-        },
-        "conditionsModule": {
-          "conditions": [
-            "Alzheimer s Disease"
-          ]
-        },
-        "designModule": {
-          "studyType": "INTERVENTIONAL",
-          "phases": [
-            "PHASE3"
-          ],
-          "enrollmentInfo": {
-            "count": 320
-          }
-        }
-      }
-    },
-    {
-      "protocolSection": {
-        "identificationModule": {
-          "nctId": "NCT06976203",
-          "briefTitle": "A Study to Evaluate the Efficacy and Safety of KarXT + KarX-EC for Cognitive Impairment in Alzheimer's Disease (MINDSET 2)"
-        },
-        "statusModule": {
-          "overallStatus": "RECRUITING",
-          "startDateStruct": {
-            "date": "2025-07-21"
-          },
-          "primaryCompletionDateStruct": {
-            "date": "2028-09-11"
-          }
-        },
-        "sponsorCollaboratorsModule": {
-          "leadSponsor": {
-            "name": "Bristol-Myers Squibb"
+            "name": "Alnylam Pharmaceuticals"
           }
         },
         "conditionsModule": {
@@ -173,46 +28,10 @@
         "designModule": {
           "studyType": "INTERVENTIONAL",
           "phases": [
-            "PHASE3"
-          ],
-          "enrollmentInfo": {
-            "count": 586
-          }
-        }
-      }
-    },
-    {
-      "protocolSection": {
-        "identificationModule": {
-          "nctId": "NCT07598370",
-          "briefTitle": "A Study of LY3439539 in Participants With Alzheimer's Disease"
-        },
-        "statusModule": {
-          "overallStatus": "RECRUITING",
-          "startDateStruct": {
-            "date": "2026-05-21"
-          },
-          "primaryCompletionDateStruct": {
-            "date": "2027-05"
-          }
-        },
-        "sponsorCollaboratorsModule": {
-          "leadSponsor": {
-            "name": "Eli Lilly and Company"
-          }
-        },
-        "conditionsModule": {
-          "conditions": [
-            "Alzheimer Disease"
-          ]
-        },
-        "designModule": {
-          "studyType": "INTERVENTIONAL",
-          "phases": [
             "PHASE1"
           ],
           "enrollmentInfo": {
-            "count": 30
+            "count": 50
           }
         }
       }
@@ -220,29 +39,64 @@
     {
       "protocolSection": {
         "identificationModule": {
-          "nctId": "NCT06639282",
-          "briefTitle": "Repurposing Siponimod for Alzheimer's Disease"
+          "nctId": "NCT03860857",
+          "briefTitle": "Biomarker Exploration in Aging, Cognition and Neurodegeneration"
         },
         "statusModule": {
           "overallStatus": "RECRUITING",
           "startDateStruct": {
-            "date": "2025-08-26"
+            "date": "2018-05-01"
           },
           "primaryCompletionDateStruct": {
-            "date": "2029-10"
+            "date": "2026-12-22"
           }
         },
         "sponsorCollaboratorsModule": {
           "leadSponsor": {
-            "name": "St. Joseph's Hospital and Medical Center, Phoenix"
+            "name": "University of California, Irvine"
           }
         },
         "conditionsModule": {
           "conditions": [
             "Alzheimer Disease",
-            "Mild Alzheimer Disease",
-            "MCI With Increased Risk for Alzheimer Disease",
-            "Cognitive Impairment, Mild"
+            "Cognitive Impairment",
+            "Cognitive Decline"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 300
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07213349",
+          "briefTitle": "Daridorexant for Alzheimer Disease Prevention"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-10-14"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-12"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Douglas Mental Health University Institute"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Alzheimer Disease (AD)"
           ]
         },
         "designModule": {
@@ -251,7 +105,7 @@
             "PHASE2"
           ],
           "enrollmentInfo": {
-            "count": 105
+            "count": 240
           }
         }
       }
@@ -259,39 +113,192 @@
     {
       "protocolSection": {
         "identificationModule": {
-          "nctId": "NCT06585384",
-          "briefTitle": "Safety of a Strategy Combining Etanercept Administration With Repeated Contrast Ultrasound in Patients With Alzheimer's Disease"
+          "nctId": "NCT04601038",
+          "briefTitle": "Trial of CORT108297 to Attenuate the Effects of Acute Stress in the Allocortex (CORT-X)"
         },
         "statusModule": {
           "overallStatus": "RECRUITING",
           "startDateStruct": {
-            "date": "2025-04-15"
+            "date": "2021-06-28"
           },
           "primaryCompletionDateStruct": {
-            "date": "2028-06"
+            "date": "2027-11-30"
           }
         },
         "sponsorCollaboratorsModule": {
           "leadSponsor": {
-            "name": "Fondation Ophtalmologique Adolphe de Rothschild"
+            "name": "Johns Hopkins University"
           }
         },
         "conditionsModule": {
           "conditions": [
-            "Alzheimer Disease"
+            "Mild Cognitive Impairment",
+            "Alzheimer Disease",
+            "Memory Impairment"
           ]
         },
         "designModule": {
           "studyType": "INTERVENTIONAL",
           "phases": [
-            "PHASE1"
+            "PHASE2"
           ],
           "enrollmentInfo": {
-            "count": 5
+            "count": 52
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05462106",
+          "briefTitle": "A Study to Assess the Effects of ACI-24.060 in Alzheimer's Disease and in Down Syndrome (ABATE Study)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2022-06-21"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2029-04"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "AC Immune SA"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Amyloid Plaque",
+            "Beta-Amyloid",
+            "DSAD",
+            "Prodromal Alzheimer's Disease",
+            "Alzheimer's Disease"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 304
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06957418",
+          "briefTitle": "Alzheimer's Tau Platform: Master Protocol"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2026-07-06"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-08-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Paul S. Aisen"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Preclinical Alzheimer's Disease",
+            "Alzheimer Disease",
+            "Prodromal Alzheimer's Disease"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "enrollmentInfo": {
+            "count": 900
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07170150",
+          "briefTitle": "A Clinical Trial of Trontinemab in Participants With Early Symptomatic Alzheimer's Disease"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2025-11-12"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-06-07"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Hoffmann-La Roche"
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Alzheimers Disease"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 800
+          }
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06534723",
+          "briefTitle": "Phase 3 Clinical Trial of Wujia Yizhi Granules in the Treatment of Mild-to-moderate Alzheimer's Dementia (Syndrome of Deficiency of Spleen and Kidney)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {
+            "date": "2024-08-20"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2026-08-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Sichuan Jishengtang Pharmaceutical Co., Ltd."
+          }
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Alzheimer's Dementia"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ],
+          "enrollmentInfo": {
+            "count": 570
           }
         }
       }
     }
   ],
-  "nextPageToken": "ZVNj7o2Elu8o3lp3Wcms5bbumpOQJJxubfSi1PYW"
+  "nextPageToken": "ZVNj7o2Elu8o3lp3U8mh5unumpOQJJxubPCn2_0W"
 }
